@@ -33,8 +33,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex: 1 0 auto;
+  margin-right: 10px;
 }
 
+.header{
+  font-weight: bold;
+  font-size: large;
+  
+}
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -48,6 +56,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+
+  margin-left: auto;
 }
 
 button {
@@ -66,4 +76,28 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* classes */
+
+/* flex-family */
+
+.flexman,.flexboy,.flexkids {
+  display: flex;
+}
+
+.flexman{
+  padding: 10px;
+}
+.flexboy{
+  flex-direction: column;
+  flex: 1,1, auto;
+ 
+}
+
+/* normal classes */
+
+.text{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
